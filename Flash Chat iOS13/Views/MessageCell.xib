@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="MessageCell" customModule="Flash_Chat_iOS13" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="315" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="315" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cep-p6-3Q4">
+                        <rect key="frame" x="10" y="10" width="245" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEq-T0-l8I">
+                                <rect key="frame" x="8" y="12" width="237" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OER-8h-J2p"/>
+                                    <constraint firstAttribute="width" constant="237" id="e1C-m4-ZFg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="BrandPurple"/>
+                        <constraints>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="leading" secondItem="cep-p6-3Q4" secondAttribute="leadingMargin" constant="8" id="0k3-Xl-yL4"/>
+                            <constraint firstAttribute="trailing" secondItem="MEq-T0-l8I" secondAttribute="trailing" id="2u5-Pj-AeU"/>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="top" secondItem="cep-p6-3Q4" secondAttribute="topMargin" constant="12" id="91y-Wv-eSL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MEq-T0-l8I" secondAttribute="trailing" id="DJ4-RX-BQJ"/>
+                            <constraint firstAttribute="bottom" secondItem="MEq-T0-l8I" secondAttribute="bottom" constant="7" id="F9p-zc-OeS"/>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="top" secondItem="cep-p6-3Q4" secondAttribute="top" constant="12" id="Ho9-51-oeO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MEq-T0-l8I" secondAttribute="bottom" constant="7" id="JCT-68-hVT"/>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="top" secondItem="cep-p6-3Q4" secondAttribute="topMargin" constant="10" id="ZAp-cQ-8Zg"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="MEq-T0-l8I" secondAttribute="bottom" constant="10" id="a20-LN-kHL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MEq-T0-l8I" secondAttribute="trailing" id="pcU-r8-Rkj"/>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="leading" secondItem="cep-p6-3Q4" secondAttribute="leading" constant="8" id="rGv-tW-UCB"/>
+                            <constraint firstItem="MEq-T0-l8I" firstAttribute="leading" secondItem="cep-p6-3Q4" secondAttribute="leadingMargin" constant="8" id="sNk-g9-FrI"/>
+                            <constraint firstAttribute="height" constant="40" id="u4a-Qb-kN3"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="MPw-cA-k6O">
+                        <rect key="frame" x="265" y="10" width="40" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Wvu-NV-3Y1"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="cep-p6-3Q4" secondAttribute="bottom" constant="10" id="IN1-7r-6tW"/>
+                    <constraint firstItem="MPw-cA-k6O" firstAttribute="leading" secondItem="cep-p6-3Q4" secondAttribute="trailing" constant="10" id="LUo-0g-eB6"/>
+                    <constraint firstItem="cep-p6-3Q4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="NfT-4Z-hUn"/>
+                    <constraint firstItem="MPw-cA-k6O" firstAttribute="leading" secondItem="cep-p6-3Q4" secondAttribute="trailing" constant="10" id="duh-l6-C8m"/>
+                    <constraint firstItem="MPw-cA-k6O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gbP-Cv-9zQ"/>
+                    <constraint firstItem="cep-p6-3Q4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="vdg-FC-fZW"/>
+                    <constraint firstAttribute="trailing" secondItem="MPw-cA-k6O" secondAttribute="trailing" constant="10" id="yzb-Ja-dew"/>
+                    <constraint firstAttribute="bottom" secondItem="MPw-cA-k6O" secondAttribute="bottom" constant="10" id="zZO-u6-3ab"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImage" destination="MPw-cA-k6O" id="k0D-hz-VOP"/>
+                <outlet property="containerView" destination="cep-p6-3Q4" id="Hp8-6U-E4f"/>
+                <outlet property="messageLabel" destination="MEq-T0-l8I" id="3yO-zE-LzQ"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="132.58928571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="MeAvatar" width="36" height="36"/>
+        <namedColor name="BrandPurple">
+            <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
