@@ -22,7 +22,7 @@
 		0EF6A8CA250F6C0200DA2AE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF6A8C9250F6C0200DA2AE2 /* GoogleService-Info.plist */; };
 		0EF6A8CC250F7E9400DA2AE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6A8CB250F7E9400DA2AE2 /* Constants.swift */; };
 		0EF6A8CE250F7FDA00DA2AE2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6A8CD250F7FDA00DA2AE2 /* Message.swift */; };
-		93FF46F2744BCF00D01FFA27 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D063D3F46E139E6FB7A527 /* Pods_Flash_Chat_iOS13.framework */; };
+		D1C99F3558A31AC7FCDD2BFE /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E10E339FB6473FCA8C5104 /* Pods_Flash_Chat_iOS13.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		0EF6A8CD250F7FDA00DA2AE2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
 		6608B69DE00EAC0AE29BF66F /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 		79084298218F43AE0B1CED11 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
-		B7D063D3F46E139E6FB7A527 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E10E339FB6473FCA8C5104 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FF46F2744BCF00D01FFA27 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
+				D1C99F3558A31AC7FCDD2BFE /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 		2811EE0BA3C2B1F4A21CE667 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7D063D3F46E139E6FB7A527 /* Pods_Flash_Chat_iOS13.framework */,
+				D4E10E339FB6473FCA8C5104 /* Pods_Flash_Chat_iOS13.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
-				B78219CB9D55F9A6941B9C52 /* [CP] Embed Pods Frameworks */,
+				AE2D9116CB5441775FC6E1E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,7 +172,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Angela Yu";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
@@ -236,7 +236,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B78219CB9D55F9A6941B9C52 /* [CP] Embed Pods Frameworks */ = {
+		AE2D9116CB5441775FC6E1E4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

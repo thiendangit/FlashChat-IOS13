@@ -11,6 +11,10 @@ target 'Flash Chat iOS13' do
    # add the Firebase pod for Google Analytics
    pod 'Firebase/Analytics'
    pod 'Firebase/Auth'
+   pod 'Firebase/Firestore'
+   # Optionally, include the Swift extensions if you're using Swift.
+   pod 'FirebaseFirestoreSwift'
    # add pods for any other desired Firebase products
+   pod 'IQKeyboardManagerSwift', '6.3.0'
 
 end
